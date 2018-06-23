@@ -1,0 +1,29 @@
+{
+  "name": "stateful-monad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3mon/stateful-monad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/th3mon/stateful-monad/issues"
+  },
+  "homepage": "https://github.com/th3mon/stateful-monad#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.75.0",
+    "nodemon": "^1.17.5"
+  }
+}

@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/.*
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+# all=off by default
+all=true
+
+[strict]
