@@ -8,7 +8,8 @@
     "prepublish": "npm run build",
     "flow": "flow",
     "app-one": "nodemon --inspect app-one.js",
-    "app-two": "nodemon --inspect app-two.js"
+    "app-two": "nodemon --inspect app-two.js",
+    "app-three": "nodemon --inspect app-three.js"
   },
   "repository": {
     "type": "git",
