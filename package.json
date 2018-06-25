@@ -9,7 +9,8 @@
     "flow": "flow",
     "app-one": "nodemon --inspect app-one.js",
     "app-two": "nodemon --inspect app-two.js",
-    "app-three": "nodemon --inspect app-three.js"
+    "app-three": "nodemon --inspect app-three.js",
+    "app-four": "nodemon --inspect app-four.js"
   },
   "repository": {
     "type": "git",
